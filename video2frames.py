@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-cap=cv2.VideoCapture(r'20170505_102056.mp4')
+cap=cv2.VideoCapture(r'video.mp4')
 cpt=0
 while(cap.isOpened()):
       ret,frame=cap.read()
