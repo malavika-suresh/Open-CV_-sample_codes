@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img=cv2.imread(r'merge.png.')
+img=cv2.imread(r'merge.png')
 HSV=cv2.cvtColor(img,cv2.COLOR_BGR2HSV)
 
 #lower_blue=np.array([110,50,50])#blue
